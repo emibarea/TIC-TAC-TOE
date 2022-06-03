@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #22333b;
+}
+.title {
+  font-size: 5em;
+  color: #848484;
+}
+.title-1 {
+  color: #cd493a;
+}
+.title-2 {
+  color: #4392f1;
+}
+@media (max-width: 600px) {
+  .title {
+    font-size: 3em;
+  }
+}
